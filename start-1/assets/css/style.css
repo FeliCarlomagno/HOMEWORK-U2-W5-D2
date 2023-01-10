@@ -129,6 +129,7 @@ h1 {
   letter-spacing: -0.03em;
   margin-bottom: 0.7em;
 }
+/******************SVG*************************/
 
 @media screen and (min-width: 700px) {
   svg {
@@ -451,12 +452,30 @@ footer a {
     display: none;
   }
 }
+@media screen and (min-width: 500px) {
+  #returnButton {
+    position: fixed;
+    bottom: 8px;
+    left: 436px;
+    border: 2px solid purple;
+  }
+}
 
-#returnButton {
-  position: fixed;
-  bottom: 8px;
-  left: 483px;
-  border: 2px solid purple;
+@media screen and (min-width: 700px) {
+  #returnButton {
+    position: fixed;
+    bottom: 8px;
+    left: 640px;
+    border: 2px solid purple;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #returnButton {
+    position: fixed;
+    bottom: 8px;
+    left: 1120px;
+    border: 2px solid purple;
+  }
 }
 ion-icon {
   color: purple;
